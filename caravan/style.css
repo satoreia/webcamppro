@@ -4,9 +4,65 @@
   padding: 0;
   box-sizing: border-box;
 }
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 
 .header {
-	width: 80%; /* 横幅 */
-	height: 400px; /* 高さ */
-	background-color: #FF0000; /* 背景色 */
+	width: 100%; /* 横幅 */
+	height: 120px; /* 高さ */
+	background-color: red; /* 背景色 */
+}
+.header-top{
+	width: 100%;
+	height: 70px;
+	background-color: hotpink;
+}
+.header-bottom{
+	width: 100%;
+	height: 50px;
+	background-color: pink;
+}
+
+
+.main-visual{
+	width: 100%;
+	height: 300px;
+	background-color: orange;
+}
+.main-visual-content{
+	width: 350px;
+	height: 300px; /* 親の高さに揃える */
+	background-color: gold;
+}
+
+
+
+.main{
+	width: 840px;
+	background-color: green;
+	/* 中央寄せ（余白がないとできない）= 親の横幅の調整が */
+	margin: 0 auto;
+}
+.blog{
+	width: 600px;
+	height: 1400px;
+	background-color: limegreen;
+	float: left;
+}
+.sidebar{
+	width: 240px;
+	height: 1400px;
+	background-color: palegreen;
+	float: left;
+}
+
+
+.footer{
+	width: 100%;
+	height: 120px;
+	background-color: blue;
 }
