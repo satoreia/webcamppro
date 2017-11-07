@@ -208,3 +208,25 @@ footer {
 .footer-text {
 	color: #fff;
 }
+
+
+/*　レスポンシブはcssの一番下に記述する。スマホ300px, タブレット縦768px, タブレット横1024px */
+@media screen and (max-width: 300px) {
+	img {
+		width: 100%
+	}
+}
+
+@media screen and (max-width: 768px) {
+	p{
+		color: red;
+	}
+}
+@media screen and (max-width: 1024px) {
+	p{
+		color: blue;
+	}
+}
+
+
+
