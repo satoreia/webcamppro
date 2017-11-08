@@ -213,7 +213,7 @@ footer {
 /*　レスポンシブはcssの一番下に記述する。スマホ300px, タブレット縦768px, タブレット横1024px */
 @media screen and (max-width: 300px) {
 	img {
-		width: 100%
+		width: 100%;
 	}
 }
 
