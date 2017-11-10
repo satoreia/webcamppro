@@ -1,0 +1,502 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #6c6b6b;
+}
+a {
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+header {
+	position: relative;
+	height: 70px;
+	background-color: #EC715F;
+	padding: 0;
+	margin: 0 auto;
+}
+
+nav {
+	line-height: 70px;
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.headline-logo {
+	height: 70px;
+	float: left;
+}
+
+.nav-list {
+	text-align: right;
+}
+
+.hum_menue {
+	display: none;
+}
+
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 30px;
+	color: #FAFAFA;
+}
+
+
+.main-visual {
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: 100% 100%;
+	margin: 0 auto;
+}
+
+.main-visual-text {
+	font-size: 64px;
+	color: #FAFAFA;
+	text-align: center;
+	padding-top: 200px;
+}
+.main-visual-text2 {
+	font-size: 20px;
+	color: #FAFAFA;
+	text-align: center;
+	padding-top: 10px;
+}
+
+main {
+	margin: 0 auto;
+}
+
+.portfolio {
+	margin: 0 auto;
+	background-color: #ECEFF1;
+}
+.wrapper {
+	width: 920px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.box {
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+	float: left;
+}
+.box1 {
+	background-image: url(img/sketch.jpg);
+	margin-right: 10px;
+}
+.box2 {
+	background-image: url(img/websuku.png);
+	margin-right: 10px;
+}
+.box3 {
+	background-image: url(img/write.jpg);
+}
+.box4 {
+	background-image: url(img/webcamp.png);
+	margin-right: 10px;
+}
+.box5 {
+	background-image: url(img/talk.jpg);
+	margin-right: 10px;
+}
+.box6 {
+	background-image: url(img/webcamp-mother.png);
+}
+
+.portfolio-text {
+	font-size: 32px;
+	color: #000000;
+	padding: 90px 0 8px;
+	text-align: center;
+}
+
+.border {
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+
+.portfolio-text2 {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding: 30px 0;
+}
+
+
+
+.wrapper1 {
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.Feature-text {
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+	padding: 90px 0 8px;
+}
+
+.Feature-text2 {
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+.Feature-boxies {
+	width: 980px;
+	margin: 0 auto;
+}
+.Feature-box {
+	width: 320px;
+	height: auto;
+	float: left;
+}
+
+.Feature-box .fa {
+	text-align: center;
+	width: 320px;
+	font-size: 60px;
+}
+
+.Fbox1 {
+	margin-right: 10px;
+}
+.Fbox2 {
+	margin-right: 10px;
+}
+
+.Feature-text3 {
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+}
+
+.Feature-text4 {
+	font-size: 16px;
+	color: #000000;
+}
+
+
+
+.Profile {
+	background-color: #ECEFF1;
+}
+.wrapper2 {
+	width: 1024px;
+	margin: 0 auto;
+}
+.Profile-text {
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+	padding: 90px 0 8px;
+}
+.Profile-text2 {
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+.Profile-boxies {
+	width: 1024px;
+	margin: 0 auto;
+}
+.Profile-box {
+	width: 512px;
+	float: left;
+	margin-bottom: 90px;
+}
+.Profile-image {
+	background-image: url(img/my-icon.jpg);
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.Profile-text3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.Profile-text4 {
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 8px;
+}
+.Profile-text5 {
+	font-size: 16px;
+	color: #000000;
+}
+
+
+
+.wrapper3 {
+	width: 480px;
+	margin: 0 auto;
+}
+.Contact-text {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	margin: 90px 0 8px;
+}
+
+/*.contact-text-box {*/
+	/*width: auto;*/
+
+.Contact-text2 {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding: 30px 0;
+}
+/*.Contact-boxies */
+
+.Contact-box {
+	/*float: left;*/
+	width: 240px;
+	margin-bottom: 90px;
+}
+.Contact-text3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-decoration: underline;
+}
+.Contact-text4 {
+	margin-bottom: 20px;
+}
+.Contact-text5 {
+	text-decoration: underline;
+}
+.Cbox1 {
+	float: left;
+}
+.Cbox2 {
+	float: right;
+}
+.Contact-box i {
+	font-size: 50px;
+}
+.fa-facebook {
+	margin: 0 20px 0 70px;
+}
+.fa-twitter {
+	margin-right: 20px;
+}
+.fa-instagram {
+
+}
+.Contact-text6 {
+	font-size: 20px;
+	margin-left: 70px;
+}
+
+
+footer {
+	background-color: #EC715F;
+	height: 60px;
+}
+.footer-text {
+	text-align: center;
+	font-size: 16px;
+	color: #FAFAFA;
+	line-height: 60px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	img {
+		width: 100%
+	}
+	header {
+		height: 50px;
+
+	}
+	.headline-logo {
+		width: auto;
+		height: 50px;
+	}
+	nav {
+		width: 90%;
+	}
+	.nav-list-item {
+
+	}
+	.hum_menue {
+		display: block;
+	}
+	.white {
+		color: white;
+	}
+
+    .wrapper {
+    	width: 90%;
+    	padding-bottom: 90px;
+    }
+    .wrapper1{
+    	width: 90%;
+    	padding-bottom: 90px;
+    }
+    .wrapper2 {
+    	width: 90%;
+    	padding-bottom: 90px;
+    }
+    .wrapper3 {
+    	width: 90%;
+    	padding-bottom: 90px;
+    }
+    footer {
+
+    }
+
+
+
+
+	.main-visual {
+		background-image: url(img/code.png);
+		height: 750px;
+	}
+	.main-visual-text {
+		font-size: 40px;
+		padding-top: 200px;
+	}
+	.main-visual-text2 {
+		font-size: 18px;
+	}
+
+	.none {display: none;}
+
+
+	.box {
+		float: none;
+		margin: 0 auto;
+	}
+	.box4 {
+		margin: 10px auto;
+
+	}
+
+
+	.Feature-boxies {
+		width: 90%;
+	}
+	.Feature-box .fa {
+		width: 90%;
+		padding-top: 10px;
+	}
+	.Feature-box {
+		margin-bottom: 10px;
+		float: none;
+		margin: 0 auto;
+	}
+	.fa-commenting {
+		margin-left: 20px;
+	}
+	.fa-cubes {
+		margin-left: 20px;
+	}
+	.fa-cog {
+		margin-left: 20px;
+	}
+
+
+	.Profile-boxies {
+	    width: 90%;
+    }
+    .Profile-box {
+    	width: 90%;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+    }
+    .Profile-text3 {
+	margin: 20px 0 5px;
+	}
+
+	.Contact-box {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+	}
+	.Cbox2 {
+		padding-left: 75px;
+	}
+	.Contact-text6 {
+		margin: 20px 70px 0 0;
+	}
+	.fa-facebook {
+		margin: 0 8px 0 0;
+	}
+	.fa-twitter {
+		margin-right: 8px;
+	}
+	.fa-instagram {
+		margin-right: 70px;
+	}
+	.nav-list-item{
+		display: none;
+	}
+	.hum_menue{
+		width: 44px;
+		height: 44px;
+		border:solid 1px white;
+		float: right;
+		margin: 3px 8px;
+	}
+	.fa-bars {
+		font-size: 32px;
+		float: right;
+		margin: 5px 7px 0 0;
+	}
+}
+
+/*- PC
+- Portfolio
+- 最下部が90px空いていません。
+- Feature
+- 最下部が90ではなく180px空いています。
+- Contact
+- Textの幅が480pxになっています。
+- Mailの下線がありません。
+- レスポンシブ
+- Portfolio
+- 画像が縦長になっています。
+- Contact
+- Mail, Tell, SNSが左に寄っています。
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
